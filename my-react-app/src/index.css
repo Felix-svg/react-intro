@@ -11,16 +11,20 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  width: 60%;
+  margin: auto;
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  color: rgb(112, 86, 86);
+  text-decoration: none;
 }
 a:hover {
   color: #535bf2;
 }
+
 
 body {
   margin: 0;
@@ -35,7 +39,72 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+li{
+  list-style-type: none;
+}
+
+footer p{
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  padding: 4px;
+  margin: auto;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  box-sizing: border-box;
+}
+
+.proj{
+  height: 200px;
+  width: 200px;
+  margin: 3px;
+  padding: 8px;
+  border-radius: 2px;
+  background-color: #535bf2;
+  box-sizing: border-box;
+}
+
+.proj h4{
+  text-decoration: underline solid rgb(85, 85, 81) 1px;
+
+}
+
+hr{
+  color: red;
+}
+
+.proj i{
+  font-size: 25px;
+  color: maroon
+}
+
+.icons{
+  text-align: center;
+  /* background-color: #343434; */
+  padding: 6px 4px;
+}
+
+.icons i{
+  color: white;
+  margin: 2px;
+}
+
+.codes{
+  text-align: center;
+  margin: 0;
+  font-weight: 700;
+  color: rgb(40, 72, 101);
+}
+
+.codes i{
+  color: tomato;
+}
+
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -65,4 +134,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
