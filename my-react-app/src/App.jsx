@@ -3,6 +3,7 @@ import Footer from "./Footer"
 import About from "./About"
 import Projects from "./Projects"
 import Codes from "./Codes"
+import Contact from "./Contact"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Projects />
     <Codes />
     <Footer />
+    <Contact />
     </>
   )
 }
